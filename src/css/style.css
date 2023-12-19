@@ -2,6 +2,31 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Philosopher';
+    src: local('Philosopher');
+    src: url("../fonts/Philosopher-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto');
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto');
+    src: url("../fonts/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background-color: #FFE2B0;
 }
@@ -126,4 +151,8 @@ hr {
 
 footer {
     height: 80px;
+}
+
+[class*="title"] {
+    font-family: 'Philosopher', sans-serif;
 }
